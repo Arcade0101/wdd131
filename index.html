@@ -4,19 +4,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>WDD 131 – Dynamic Web Fundamentals – Mudandi Arcade</title>
+
+  <!-- SEO and author metadata -->
+  <!-- i add a lot of comment so that i can see and navigate what i builded fast i can also use search but comments helps alot -->
   <meta name="description" content="WDD 131 – Dynamic Web Fundamentals, Mudandi Arcade, course home page and web development project portfolio.">
   <meta name="author" content="Mudandi Arcade">
   
-  <!-- Google Fonts API -->
+  <!-- external google fonts import  -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   
+  <!-- local stylesheet and dynamic dates script -->
   <link rel="stylesheet" href="styles/base.css">
   <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
 
+  <!-- main site header & navigation Bar -->
   <header>
     <span id="course-title">WDD 131: Dynamic Web Fundamentals</span>
     <nav>
@@ -27,33 +32,36 @@
     </nav>
   </header>
 
+  <!-- main content container -->
   <main>
     <h1>Mudandi Arcade</h1>
 
     <div class="card-container">
-      <!-- Card 1: About Me -->
+      <!-- Card 1 Personal Profile and Location Information -->
       <section class="card">
         <h2>About Me</h2>
         <div class="card-content">
           <p>
-            My name is Mudandi Arcade. I am currently studying Software Engineering at BYU-Idaho. I am passionate about web development, building clean software solutions, and continuously expanding my technical skills.
+            My name is Mudandi Arcade. I am passionate about web development, building clean software solutions, and continuously expanding my technical skills.
           </p>
-          <img src="images/profile.jpg" alt="Profile photo of Mudandi Arcade" width="150" height="200">
+          <!-- Note Profile image path includes spaces matching exact uploaded file name -->
+          <img src="images/Profile Arcade.png" alt="Profile photo of Mudandi Arcade" width="150" height="200">
         </div>
 
-        <h3>Osaka, Japan</h3>
+        <h3>Kigali, Rwanda</h3>
         <div class="card-content">
           <figure>
-            <img src="images/flag.png" alt="Official Flag of Japan" width="120">
-            <figcaption>Official Flag of Japan</figcaption>
+            <!-- note Flag image path includes spaces matching exact uploaded file name -->
+            <img src="images/Rwanda flag.png" alt="Official Flag of Rwanda" width="120">
+            <figcaption>Official Flag of Rwanda</figcaption>
           </figure>
           <p>
-            Osaka is a vibrant city in Japan known for its modern architecture, energetic nightlife, and hearty street food including takoyaki and okonomiyaki.
+            Kigali is a vibrant city in Rwanda known for its energetic culture and hearty local cuisine including brochettes and akabenz.
           </p>
         </div>
       </section>
 
-      <!-- Card 2: Web Dev Resources -->
+      <!-- Card 2 recommended web development resources -->
       <section class="card">
         <h2>Web Dev Resources</h2>
         <ul>
@@ -67,8 +75,9 @@
     </div>
   </main>
 
+  <!-- footer with dynamic copyright Year & Last Modified Timestamp Populated by getdates.js -->
   <footer>
-    <p>©<span id="currentyear"></span> 🌸 Mudandi Arcade 🌸 Japan</p>
+    <p>©<span id="currentyear"></span> 🇷🇼 Mudandi Arcade 🇷🇼 Rwanda</p>
     <p id="lastModified"></p>
   </footer>
 

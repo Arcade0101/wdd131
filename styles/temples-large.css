@@ -1,0 +1,38 @@
+/* Larger View (Desktop / Tablet Screens) */
+@media screen and (min-width: 768px) {
+    #menu {
+        display: none; /* Hide hamburger icon on desktop */
+    }
+
+    header {
+        padding: 1rem 2rem;
+    }
+
+    /* Show navigation inline as a flex row */
+    nav {
+        position: static;
+        display: block !important;
+        width: auto;
+        background: transparent;
+    }
+
+    nav ul {
+        flex-direction: row;
+        gap: 0.5rem;
+    }
+
+    nav li a {
+        padding: 0.5rem 1rem;
+        border-radius: 4px;
+    }
+
+    /* Expand main grid to 3 columns */
+    .grid-container {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+
+    main {
+        max-width: 1100px;
+    }
+}

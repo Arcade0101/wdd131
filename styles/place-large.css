@@ -1,0 +1,28 @@
+@media (min-width: 768px) {
+    main {
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: auto auto;
+    }
+
+    .hero {
+        grid-column: 1 / -1;
+    }
+
+    .data-card {
+        grid-column: 1 / 2;
+    }
+
+    .weather-card {
+        grid-column: 2 / 3;
+    }
+
+    /* Hide the mobile SVG img icon on desktop */
+    .weather-icon {
+        display: none;
+    }
+
+    /* Use the pseudo-element for the weather icon in the large view */
+    .weather-card h2::after {
+        content: " ⛅";
+    }
+}

@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  max-width: 520px;
+  margin: 0 auto;
+  padding: 1rem;
+  color: #111827;
+  background-color: #ffffff;
+}
+
+header,
+footer {
+  background-color: #1f2937;
+  color: #ffffff;
+  padding: 1rem;
+  text-align: center;
+}
+
+form {
+  background-color: #f3f4f6;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 6px;
+}
+
+label,
+legend {
+  display: block;
+  font-weight: bold;
+  margin-top: 0.75rem;
+}
+
+fieldset label,
+fieldset input {
+  display: inline-block;
+  font-weight: normal;
+  margin-top: 0.25rem;
+}
+
+select,
+input[type="date"],
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.25rem;
+  font-size: 1rem;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #0f766e;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Review Form | WDD 131</title>
+  <meta name="description" content="Product review form page.">
+  <meta name="author" content="Mudandi Arcade">
+  <link rel="stylesheet" href="styles/form.css">
+  <script src="scripts/form.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Product Review</h1>
+  </header>
+
+  <main>
+    <form method="get" action="review.html">
+      <label for="productName">Product Name</label>
+      <select id="productName" name="productName" required>
+        <option value="" disabled selected>Select a Product ...</option>
+      </select>
+
+      <fieldset>
+        <legend>Overall Rating</legend>
+        <label for="r1">&star;</label>
+        <input type="radio" id="r1" name="rating" value="1" required>
+
+        <label for="r2">&star;&star;</label>
+        <input type="radio" id="r2" name="rating" value="2" required>
+
+        <label for="r3">&star;&star;&star;</label>
+        <input type="radio" id="r3" name="rating" value="3" required>
+
+        <label for="r4">&star;&star;&star;&star;</label>
+        <input type="radio" id="r4" name="rating" value="4" required>
+
+        <label for="r5">&star;&star;&star;&star;&star;</label>
+        <input type="radio" id="r5" name="rating" value="5" required>
+      </fieldset>
+
+      <label for="installDate">Date of Installation</label>
+      <input type="date" id="installDate" name="installDate" required>
+
+      <fieldset>
+        <legend>Useful Features</legend>
+        <input type="checkbox" id="f1" name="features" value="durability">
+        <label for="f1">Durability</label>
+
+        <input type="checkbox" id="f2" name="features" value="ease">
+        <label for="f2">Ease of Use</label>
+
+        <input type="checkbox" id="f3" name="features" value="performance">
+        <label for="f3">Performance</label>
+
+        <input type="checkbox" id="f4" name="features" value="design">
+        <label for="f4">Design</label>
+      </fieldset>
+
+      <label for="writtenReview">Written Review (Optional)</label>
+      <textarea id="writtenReview" name="writtenReview" rows="4"></textarea>
+
+      <label for="userName">Your Name (Optional)</label>
+      <input type="text" id="userName" name="userName">
+
+      <input type="submit" value="Post Review">
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy;<span id="currentyear"></span> Mudandi Arcade | Osaka, Japan</p>
+    <p id="lastModified"></p>
+  </footer>
+</body>
+</html>

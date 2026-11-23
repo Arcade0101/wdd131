@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 620" width="320" height="620">
+  <rect width="320" height="620" fill="#ffffff" stroke="#14213D" stroke-width="3"/>
+  <rect x="12" y="12" width="296" height="48" fill="#14213D"/>
+  <text x="24" y="41" fill="#ffffff" font-family="Arial, sans-serif" font-size="14" font-weight="bold">LOGO | Site Title</text>
+  <text x="275" y="42" fill="#FDE68A" font-family="Arial, sans-serif" font-size="18" font-weight="bold">&#9776;</text>
+
+  <rect x="12" y="72" width="296" height="130" fill="#E5E7EB" stroke="#9CA3AF"/>
+  <text x="160" y="132" text-anchor="middle" fill="#1F2937" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Hero Image + Tagline</text>
+  <rect x="95" y="150" width="130" height="32" rx="4" fill="#D97706"/>
+  <text x="160" y="170" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Explore Spots CTA</text>
+
+  <rect x="12" y="216" width="296" height="95" fill="#F4F6F9" stroke="#9CA3AF"/>
+  <text x="160" y="268" text-anchor="middle" fill="#1F2937" font-family="Arial, sans-serif" font-size="13">Featured Park Card 1</text>
+
+  <rect x="12" y="323" width="296" height="95" fill="#F4F6F9" stroke="#9CA3AF"/>
+  <text x="160" y="375" text-anchor="middle" fill="#1F2937" font-family="Arial, sans-serif" font-size="13">Featured Park Card 2</text>
+
+  <rect x="12" y="430" width="296" height="110" fill="#F4F6F9" stroke="#9CA3AF"/>
+  <text x="160" y="490" text-anchor="middle" fill="#1F2937" font-family="Arial, sans-serif" font-size="13">Quick Workout Routine Block</text>
+
+  <rect x="12" y="554" width="296" height="52" fill="#14213D"/>
+  <text x="160" y="585" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="12">Footer &amp; Navigation Links</text>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 540" width="800" height="540">
+  <rect width="800" height="540" fill="#ffffff" stroke="#14213D" stroke-width="3"/>
+  <rect x="16" y="16" width="768" height="56" fill="#14213D"/>
+  <text x="36" y="50" fill="#ffffff" font-family="Arial, sans-serif" font-size="16" font-weight="bold">LOGO | Osaka Street Fitness</text>
+  <text x="760" y="50" text-anchor="end" fill="#FDE68A" font-family="Arial, sans-serif" font-size="14">Home   |   Parks   |   Routines   |   Submit Spot</text>
+
+  <rect x="16" y="88" width="768" height="150" fill="#E5E7EB" stroke="#9CA3AF"/>
+  <text x="400" y="152" text-anchor="middle" fill="#1F2937" font-family="Arial, sans-serif" font-size="18" font-weight="bold">Full-Width Hero Banner + Value Proposition</text>
+  <rect x="320" y="174" width="160" height="36" rx="4" fill="#D97706"/>
+  <text x="400" y="197" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="13" font-weight="bold">Find Training Parks</text>
+
+  <rect x="16" y="254" width="244" height="120" fill="#F4F6F9" stroke="#9CA3AF"/>
+  <text x="138" y="318" text-anchor="middle" fill="#1F2937" font-family="Arial, sans-serif" font-size="14">Park Card 1</text>
+
+  <rect x="278" y="254" width="244" height="120" fill="#F4F6F9" stroke="#9CA3AF"/>
+  <text x="400" y="318" text-anchor="middle" fill="#1F2937" font-family="Arial, sans-serif" font-size="14">Park Card 2</text>
+
+  <rect x="540" y="254" width="244" height="120" fill="#F4F6F9" stroke="#9CA3AF"/>
+  <text x="662" y="318" text-anchor="middle" fill="#1F2937" font-family="Arial, sans-serif" font-size="14">Park Card 3</text>
+
+  <rect x="16" y="390" width="490" height="75" fill="#F4F6F9" stroke="#9CA3AF"/>
+  <text x="261" y="432" text-anchor="middle" fill="#1F2937" font-family="Arial, sans-serif" font-size="14">Featured Bodyweight Routine Overview</text>
+
+  <rect x="522" y="390" width="262" height="75" fill="#F4F6F9" stroke="#9CA3AF"/>
+  <text x="653" y="432" text-anchor="middle" fill="#1F2937" font-family="Arial, sans-serif" font-size="14">Running Routes Callout</text>
+
+  <rect x="16" y="480" width="768" height="44" fill="#14213D"/>
+  <text x="400" y="507" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="13">Footer: Copyright, Social Links &amp; Project Info</text>
+</svg>

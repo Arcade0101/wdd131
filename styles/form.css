@@ -66,3 +66,9 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #115e59;
 }
+
+@media (min-width: 600px) {
+  body {
+    padding: 2rem;
+  }
+}
